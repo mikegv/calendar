@@ -10,10 +10,11 @@ results = File.open("results.txt", "w")
 
 page = agent.get("http://www.fulton55.com")  	# store the website in 'page' for parsing
 
-counter = 10  		#starting point for grabbing events. skip the first few generic links
-max = 108  			#stop before the last few generic links
+#counter = 10  		#starting point for grabbing events. skip the first few generic links
+#max = 108  			#stop before the last few generic links
 
-events = page.links   	#store all the links from the page in an array
+#events = page.links   	#store all the links from the page in an array
+page.links
 
 infoArray = Array.new
 event = events[counter].click 
@@ -27,7 +28,7 @@ while (counter < max) do										#iterate through the links grabbing only relev
 	end
    end
   
- counter += 1			#increment by 2 because each event has  like 2 links, sometimes 3.
+ counter += 1			#increment 
 end
 
 results.close          #close the file for good measure
