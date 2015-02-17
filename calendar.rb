@@ -14,7 +14,8 @@ page = agent.get("http://www.fulton55.com")  	# store the website in 'page' for 
 #max = 108  			#stop before the last few generic links
 
 #events = page.links   	#store all the links from the page in an array
-page.links
+page.links.each do |link|
+	
 
 infoArray = Array.new
 event = events[counter].click 
