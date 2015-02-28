@@ -10,29 +10,36 @@ results = File.open("results.txt", "w")
 
 page = agent.get("http://www.fulton55.com")  	# store the website in 'page' for parsing
 
-#counter = 10  		#starting point for grabbing events. skip the first few generic links
-#max = 108  			#stop before the last few generic links
+uri = Array.new
+i = 0
+page.links.each do |link| 
+	if link.uri.to_s.include?("event")
+		unless link.uri.to_s.include?("ticketfly")
+			uri[i] = link.click.title
+			i = i + 1
+		end
+	end	
+end
 
-#events = page.links   	#store all the links from the page in an array
-page.links.each do |link|
-	results.puts link
-end
-	
-/*
-infoArray = Array.new
-event = events[counter].click 
-counter += 1
-while (counter < max) do										#iterate through the links grabbing only relevant ones
-  event = events[counter]								# not links to ticketmaster
-  if event.text != "Tickets" and event.text != "More Info"
-	if event.text != events[counter-1].text  
-		infoArray[counter] = event.text
-		puts event
+puts "base URL #{page.uri}"
+
+slimmed = Array.new
+i=0
+j=0
+while (i < uri.length)
+	if uri[i] != uri[i-1]
+		slimmed[j] = uri[i]
+		j = j + 1
 	end
-   end
-  
- counter += 1			#increment 
+	i = i + 1
 end
-*/
+results.puts uri
+puts slimmed
+slimmed.each do |event|
+	item = event.split("\u2013")
+	puts item
+end
+
+
 results.close          #close the file for good measure
   

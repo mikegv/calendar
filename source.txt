@@ -1,0 +1,268 @@
+<!DOCTYPE html><!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --><!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]--><!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]--><!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]--><!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en"><!--<![endif]--><head>
+<meta charset="utf-8" />
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>Full Circle Brewing Co., Ltd.</title>
+
+  <meta name="description" content="website for the Full Circle Brewery" />
+  <meta name="author" content="Jeremiah Sturgill" />
+
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS: implied media="all" -->
+  <link rel="stylesheet" href="http://fullcirclebrewing.com/wp-content/themes/fullcircle/style/boilerplate.css?=v5" /><!--junk versioning can be incremented to force download and ignore cached versions -->
+  <link rel="stylesheet" href="http://fullcirclebrewing.com/wp-content/themes/fullcircle/style.css?=v5" /><!--styles not a part of boilerplate-->
+  <link rel="stylesheet" href="http://fullcirclebrewing.com/wp-content/themes/fullcircle/style/non-symantic.css?=v5" /><!--boilerplate styles split; non-symantic loaded last -->
+
+<link rel="pingback" href="http://fullcirclebrewing.com/xmlrpc.php" />
+
+<link rel="alternate" type="application/rss+xml" title="Full Circle Brewing Co., Ltd. » Home Page Comments Feed" href="http://fullcirclebrewing.com/sample-page/feed" />
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="http://fullcirclebrewing.com/wp-includes/js/l10n.js?ver=20101110"></script>
+<script type="text/javascript" src="http://fullcirclebrewing.com/wp-includes/js/comment-reply.js?ver=20090102"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://fullcirclebrewing.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://fullcirclebrewing.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="index" title="Full Circle Brewing Co., Ltd." href="http://fullcirclebrewing.com" />
+<link rel="next" title="Beers" href="http://fullcirclebrewing.com/beers" />
+<meta name="generator" content="WordPress 3.2.1" />
+<link rel="canonical" href="http://fullcirclebrewing.com/" />
+	<link rel="archives" title="February 2015" href="http://fullcirclebrewing.com/2015/02" />
+	<link rel="archives" title="January 2015" href="http://fullcirclebrewing.com/2015/01" />
+	<link rel="archives" title="December 2014" href="http://fullcirclebrewing.com/2014/12" />
+	<link rel="archives" title="November 2014" href="http://fullcirclebrewing.com/2014/11" />
+	<link rel="archives" title="October 2014" href="http://fullcirclebrewing.com/2014/10" />
+	<link rel="archives" title="September 2014" href="http://fullcirclebrewing.com/2014/09" />
+	<link rel="archives" title="August 2014" href="http://fullcirclebrewing.com/2014/08" />
+	<link rel="archives" title="July 2014" href="http://fullcirclebrewing.com/2014/07" />
+	<link rel="archives" title="June 2014" href="http://fullcirclebrewing.com/2014/06" />
+	<link rel="archives" title="May 2014" href="http://fullcirclebrewing.com/2014/05" />
+	<link rel="archives" title="April 2014" href="http://fullcirclebrewing.com/2014/04" />
+	<link rel="archives" title="March 2014" href="http://fullcirclebrewing.com/2014/03" />
+	<link rel="archives" title="February 2014" href="http://fullcirclebrewing.com/2014/02" />
+	<link rel="archives" title="January 2014" href="http://fullcirclebrewing.com/2014/01" />
+	<link rel="archives" title="December 2013" href="http://fullcirclebrewing.com/2013/12" />
+	<link rel="archives" title="November 2013" href="http://fullcirclebrewing.com/2013/11" />
+	<link rel="archives" title="October 2013" href="http://fullcirclebrewing.com/2013/10" />
+	<link rel="archives" title="September 2013" href="http://fullcirclebrewing.com/2013/09" />
+	<link rel="archives" title="August 2013" href="http://fullcirclebrewing.com/2013/08" />
+	<link rel="archives" title="July 2013" href="http://fullcirclebrewing.com/2013/07" />
+	<link rel="archives" title="June 2013" href="http://fullcirclebrewing.com/2013/06" />
+	<link rel="archives" title="May 2013" href="http://fullcirclebrewing.com/2013/05" />
+	<link rel="archives" title="April 2013" href="http://fullcirclebrewing.com/2013/04" />
+	<link rel="archives" title="March 2013" href="http://fullcirclebrewing.com/2013/03" />
+	<link rel="archives" title="February 2013" href="http://fullcirclebrewing.com/2013/02" />
+	<link rel="archives" title="January 2013" href="http://fullcirclebrewing.com/2013/01" />
+	<link rel="archives" title="December 2012" href="http://fullcirclebrewing.com/2012/12" />
+	<link rel="archives" title="November 2012" href="http://fullcirclebrewing.com/2012/11" />
+	<link rel="archives" title="October 2012" href="http://fullcirclebrewing.com/2012/10" />
+	<link rel="archives" title="September 2012" href="http://fullcirclebrewing.com/2012/09" />
+	<link rel="archives" title="August 2012" href="http://fullcirclebrewing.com/2012/08" />
+	<link rel="archives" title="July 2012" href="http://fullcirclebrewing.com/2012/07" />
+	<link rel="archives" title="June 2012" href="http://fullcirclebrewing.com/2012/06" />
+	<link rel="archives" title="May 2012" href="http://fullcirclebrewing.com/2012/05" />
+	<link rel="archives" title="April 2012" href="http://fullcirclebrewing.com/2012/04" />
+	<link rel="archives" title="March 2012" href="http://fullcirclebrewing.com/2012/03" />
+	<link rel="archives" title="February 2012" href="http://fullcirclebrewing.com/2012/02" />
+	<link rel="archives" title="January 2012" href="http://fullcirclebrewing.com/2012/01" />
+	<link rel="archives" title="December 2011" href="http://fullcirclebrewing.com/2011/12" />
+	<link rel="archives" title="November 2011" href="http://fullcirclebrewing.com/2011/11" />
+	<link rel="archives" title="October 2011" href="http://fullcirclebrewing.com/2011/10" />
+	<link rel="archives" title="September 2011" href="http://fullcirclebrewing.com/2011/09" />
+	<link rel="archives" title="August 2011" href="http://fullcirclebrewing.com/2011/08" />
+	<link rel="archives" title="July 2011" href="http://fullcirclebrewing.com/2011/07" />
+
+</head>
+<body>
+<div class="wrap">
+<div class="header">
+	<div id="storeName"><a href="http://fullcirclebrewing.com"> </a></div>
+	<div id="storeFront"><a href="http://fullcirclebrewing.com/directions"> </a></div>
+	<div id="headerInfo">
+		<span id="address">620 F St., Fresno, CA</span>
+		<span id="headerMapLink"><a href="http://fullcirclebrewing.com/directions">[ map &amp; directions ]</a></span>
+		<span id="phoneNumber">(559) 264-6323</span>		
+		<span id="hours">Open Wednesday — Saturday, 4:00 PM to 11:00 PM</span>
+	</div>
+	<div id="leftLogo"><a href="http://fullcirclebrewing.com/beers"> </a></div>
+	<div id="rightLogo"><a href="http://fullcirclebrewing.com/wine-and-meads"> </a></div>
+
+</div></div>
+<div class="wrap3">
+<ul id="topNav">
+	<li>
+	<h2><a href="http://fullcirclebrewing.com">Home</a></h2>
+	</li>
+	<li>
+	<h2><a href="http://fullcirclebrewing.com/beers">Beer</a></h2>
+	</li>
+	<li>
+	<h2><a href="http://fullcirclebrewing.com/wine-and-meads">Wine</a></h2>
+	</li>
+	<li>
+	<h2><a href="http://fullcirclebrewing.com/calendar">Events</a></h2>
+	</li>
+	<li>
+	<h2><a href="http://fullcirclebrewing.com/gallery">Pics &amp; Videos</a></h2>
+	</li>
+	<li>
+	<h2><a href="http://fullcirclebrewing.com/contact">Contact Us</a></h2>
+	</li>
+</ul>
+<!--
+	<li>
+	<h2><a href="">Friends of Full Circle</a></h2>
+	</li>
+	<li>
+	<h2><a href="">E-mail</a></h2>
+	</li>
+	<li>
+	<h2><a href="">Art Hop</a></h2>
+	</li>
+--></div><div class="wrap2">
+<div id="main">
+	<div id="content">
+										<p><meta name="p:domain_verify" content="f276944943f9e2df6f5cb6e1e2fee4dc" /></p>
+<h2>Your friends at Full Circle Brewing would like to remind everyone, please drink responsibly and always have a designated driver!</h2>
+<p> </p>
+<h2>Click on “Events” above to see our full calendar listing.</h2>
+<p> </p>
+<h1>Upcoming Events</h1>
+<div class="calendar">		<div class="event">
+			<div class="topRow">
+				<div class="date">Thu 2/26</div>
+				<div class="primary"><a href="http://fullcirclebrewing.com/823">EZ Mark's Honky Tonk</a></div>
+				<div class="link"> </div>
+				<div class="clear"> </div>
+			</div>
+			<div class="bottomRow">
+				<div class="time">5:30-7ishpm</div>
+				<div class="secondary">Sing and play</div>
+				<div class="price">FREE</div>
+				<div class="clear"> </div>
+			</div>
+		</div>		<div class="event">
+			<div class="topRow">
+				<div class="date">Fri 2/27</div>
+				<div class="primary"><a href="http://fullcirclebrewing.com/771">Tales From the Strypt- Carnival After Dark</a></div>
+				<div class="link"> </div>
+				<div class="clear"> </div>
+			</div>
+			<div class="bottomRow">
+				<div class="time">9:00 PM</div>
+				<div class="secondary">Salacious Strip Tease by A Pinch of Glitter Productions and SideShow Seduction by Skeleton Crew L.A</div>
+				<div class="price">$10</div>
+				<div class="clear"> </div>
+			</div>
+		</div>		<div class="event">
+			<div class="topRow">
+				<div class="date">Fri 2/27</div>
+				<div class="primary"><a href="http://fullcirclebrewing.com/850">The Wreck of the Spanish Armada</a></div>
+				<div class="link"> </div>
+				<div class="clear"> </div>
+			</div>
+			<div class="bottomRow">
+				<div class="time">6:00 PM</div>
+				<div class="secondary">N</div>
+				<div class="price">$10</div>
+				<div class="clear"> </div>
+			</div>
+		</div>		<div class="event">
+			<div class="topRow">
+				<div class="date">Sat 2/28</div>
+				<div class="primary"><a href="http://fullcirclebrewing.com/772">Tales From the Strypt- Carnival After Dark</a></div>
+				<div class="link"> </div>
+				<div class="clear"> </div>
+			</div>
+			<div class="bottomRow">
+				<div class="time">9:30 PM</div>
+				<div class="secondary">Salacious Strip Tease by A Pinch of Glitter Productions and SideShow Seduction by Skeleton Crew L.A</div>
+				<div class="price">$10</div>
+				<div class="clear"> </div>
+			</div>
+		</div>		<div class="event">
+			<div class="topRow">
+				<div class="date">Sat 2/28</div>
+				<div class="primary"><a href="http://fullcirclebrewing.com/776">Circus Et Cetera\'s Rogue Show</a></div>
+				<div class="link"> </div>
+				<div class="clear"> </div>
+			</div>
+			<div class="bottomRow">
+				<div class="time">11:00PM</div>
+				<div class="secondary">New year, new acts.</div>
+				<div class="price">$10</div>
+				<div class="clear"> </div>
+			</div>
+		</div></div>
+	<div id="booking">
+		<p>Are you an entertainer looking for your next gig?</p>
+		<p><a class="button" href="http://fullcirclebrewing.com/booking-request">Book Your Act Now</a></p>
+	</div>
+<p>Welcome to the Full Circle Brewing Company — the most unique brewpub and live entertainment venue in Fresno!  We host events throughout the week, and feature a fine array of <a href="http://fullcirclebrewing.com/beers">hand-crafted beers</a> and <a href="http://fullcirclebrewing.com/wine-and-meads">boutique wines</a>.</p>
+<p> </p>
+<h2>Monthly Events</h2>
+								<div class="child odd half">
+			<h3>Central California Area Derby</h3><br />
+				<img src="http://fullcirclebrewing.com/wp-content/uploads/2012/07/CCAD.jpg" />		<div class="text">
+				<p>Monthly Roller Derby Bouts held on “The Slab” at Full Circle.</p>
+<p><a href="http://fullcirclebrewing.com/calendar">See the calendar for dates and times.</a></p>
+		</div>
+
+		</div>
+									<div class="child even half">
+			<h3>B Movies and Brews</h3><br />
+				<img src="http://fullcirclebrewing.com/wp-content/uploads/2012/07/CVHC.jpg" />		<div class="text">
+				<p>Join us monthly for a B-Movie and popcorn!</p>
+<p><a href="http://fullcirclebrewing.com/calendar">See the calendar for dates and times.</a></p>
+		</div>
+
+		</div>
+									<div class="child odd half">
+			<h3>Wayne Damron</h3><br />
+				<img src="http://fullcirclebrewing.com/wp-content/themes/fullcircle/images/monthly.jpg" />		<div class="text">
+				<p>Fine music by a damn fine musician, the first Friday of every month.</p>
+		</div>
+
+		</div>
+									<div class="child even half">
+			<h3>Nate Butler at the Silent Movies</h3><br />
+				<img src="http://fullcirclebrewing.com/wp-content/themes/fullcircle/images/nateButler.jpg" />		<div class="text">
+				<p>Enjoy classics from the bygone days of silent cinema as Nate Butler plays the piano and provides insightful and occassionally irreverent commentary.</p>
+<p><a href="http://fullcirclebrewing.com/calendar">See the calendar for dates and times.</a></p>
+		</div>
+
+		</div>
+	<div class="clear"> </div>
+		
+			
+	</div>
+</div>
+</div>
+	<div class="wrap4">
+	<ul id="bottomNav">
+	<li>
+	<h2><a href="http://fullcirclebrewing.com/links">Links</a></h2>
+	</li>
+	<li>
+	<h2><a href="http://fullcirclebrewing.com/arthop">ArtHop</a></h2>
+	</li>
+</ul>
+<!--
+
+-->	</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
+	<script src="http://fullcirclebrewing.com/wp-content/themes/fullcircle/js/script.js?=v8"></script>
+	
+			<!-- analytics -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-54262-6']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</body></html>
