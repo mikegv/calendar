@@ -15,8 +15,10 @@ page = agent.get("http://www.fulton55.com")  	# store the website in 'page' for 
 
 #events = page.links   	#store all the links from the page in an array
 page.links.each do |link|
+	results.puts link
+end
 	
-
+/*
 infoArray = Array.new
 event = events[counter].click 
 counter += 1
@@ -31,6 +33,6 @@ while (counter < max) do										#iterate through the links grabbing only relev
   
  counter += 1			#increment 
 end
-
+*/
 results.close          #close the file for good measure
   
