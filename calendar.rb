@@ -12,8 +12,8 @@ page = agent.get("http://www.fulton55.com")  	# store the website in 'page' for 
 
 uri = Array.new
 i = 0
-page.links.each do |link| 
-	if link.uri.to_s.include?("event")
+page.links.each do |link| 			#save relevant events w/ date by clicking on and saving them
+	if link.uri.to_s.include?("event")	
 		unless link.uri.to_s.include?("ticketfly")
 			uri[i] = link.click.title
 			i = i + 1
@@ -21,24 +21,29 @@ page.links.each do |link|
 	end	
 end
 
-puts "base URL #{page.uri}"
-
+puts "base URL #{page.uri}"  #just prints the base url which is "fulton55.com"
 slimmed = Array.new
 i=0
 j=0
-while (i < uri.length)
-	if uri[i] != uri[i-1]
+while (i < uri.length)			#loops through all the results and gets rid
+	if uri[i] != uri[i-1]		# of repetative results
 		slimmed[j] = uri[i]
 		j = j + 1
 	end
 	i = i + 1
 end
-results.puts uri
-puts slimmed
-slimmed.each do |event|
-	item = event.split("\u2013")
-	puts item
+
+uri = Hash.new
+#format the date... yeah, thats right...
+#uses split to break eacch event up at a '-' dash. (which is \u2013"
+slimmed.each do |event|		
+	event, ticket, place, town, date = event.split("\u2013")
+	event = event.gsub(/Fulton 55 .. /,"").lstrip  #regular expressions out the 'fulton55 >>' part
+	uri[event] = date.lstrip.rstrip
 end
+
+results.puts uri			#saves all the events after that into results file
+
 
 
 results.close          #close the file for good measure
